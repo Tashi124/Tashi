@@ -1,3 +1,37 @@
 body {
     background-color: pink;
+
 }
+
+nav {
+    text-transform: uppercase;
+    font-family: "Pt Sans Narrow";
+}
+/*when you hover the tabs to italics and background*/
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    font-style: italic;
+    background-color: lightblue !important;
+}
+
+header {
+    /*sizing of the element*/
+    height: 600px;
+    width: 100%;
+    background-image: url("sad.jpg");
+    background-size: cover;
+    
+    /*Center of the text*/
+    text-align: center;
+}
+header p{
+    font-style: italic;
+    color: black;
+}
+header h1{
+    color:white;
+}
+
