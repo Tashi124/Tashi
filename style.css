@@ -19,13 +19,14 @@ nav {
 
 header {
     /*sizing of the element*/
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-image: url("sad.jpg");
     background-size: cover;
     
     /*Center of the text*/
     text-align: center;
+    color: white;
 }
 header p{
     font-style: italic;
@@ -34,4 +35,27 @@ header p{
 header h1{
     color:white;
 }
+.services i{
+    text-align: center;
+}    
+.services i{  
+    font-size:30px;
+    padding: 25px 20px;
+
+    color: #f2ba1f;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.services span {
+    width: 200px;
+    display: inline-block;
+}
+    
+    
+    
+
+
+
 
