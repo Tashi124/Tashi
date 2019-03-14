@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: white;
 
 }
 
@@ -36,7 +36,7 @@ header h1{
     color:white;
 }
 .services i{
-    text-align: center;
+    text-aligncomm: center;
 }    
 .services i{  
     font-size:30px;
@@ -53,8 +53,16 @@ header h1{
     display: inline-block;
 }
     
-    
-    
+.teams img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.contact textarea {
+    height: 200px;
+    width: 100%;
+}
 
 
 
